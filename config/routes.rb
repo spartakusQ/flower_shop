@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+  root 'flower_pages#home'
+
+  get 'flower_pages/help'
+
+  get 'flower_pages/about'
+
+
+
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
