@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   root 'flower_pages#home'
 
-  get 'flower_pages/help'
+  get 'help' => 'flower_pages#help'
 
-  get 'flower_pages/about'
+  get 'about' => 'flower_pages#about'
 
 
 
