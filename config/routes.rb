@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root 'flower_pages#home'
 
   get 'help' => 'flower_pages#help'

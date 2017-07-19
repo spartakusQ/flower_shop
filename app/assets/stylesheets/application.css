@@ -3,7 +3,7 @@
 
 /* общие */
  body {
-   padding-top: 60px;
+   padding-top: 2px;
  }
  section {
    overflow: auto;
@@ -52,7 +52,7 @@
  #logo:hover {
    color: #fff;
    text-decoration: none;
- } 
+ }
 
 /* подвал */
 footer {
